@@ -1,0 +1,107 @@
+\begin{thebibliography}{10}
+
+\bibitem{sarwar_item-based_2001}
+Badrul Sarwar, George Karypis, Joseph Konstan, and John Reidl,
+\newblock ``Item-based collaborative filtering recommendation algorithms,''
+\newblock in {\em Proceedings of the tenth international conference on {World}
+  {Wide} {Web} - {WWW} '01}, Hong Kong, Hong Kong, 2001, pp. 285--295, ACM
+  Press.
+
+\bibitem{koren_factorization_2008}
+Yehuda Koren,
+\newblock ``Factorization meets the neighborhood: a multifaceted collaborative
+  filtering model,''
+\newblock in {\em Proceeding of the 14th {ACM} {SIGKDD} international
+  conference on {Knowledge} discovery and data mining - {KDD} 08}, Las Vegas,
+  Nevada, USA, 2008, p. 426, ACM Press.
+
+\bibitem{baluja_video_2008}
+Shumeet Baluja, Rohan Seth, D~Sivakumar, Yushi Jing, Jay Yagnik, Shankar Kumar,
+  Deepak Ravichandran, and Mohamed Aly,
+\newblock ``Video {Suggestion} and {Discovery} for {YouTube}: {Taking} {Random}
+  {Walks} {Through} the {View} {Graph},''
+\newblock in {\em Proceedings of the 17th international conference on {World}
+  {Wide} {Web}}, Beijing, China, 2008, pp. 895--904, ACM.
+
+\bibitem{yang_online_2007}
+Bo~Yang, Tao Mei, Xian-Sheng Hua, Linjun Yang, Shi-Qiang Yang, and Mingjing Li,
+\newblock ``Online video recommendation based on multimodal fusion and
+  relevance feedback,''
+\newblock in {\em Proceedings of the 6th {ACM} international conference on
+  {Image} and video retrieval - {CIVR} '07}, Amsterdam, The Netherlands, 2007,
+  pp. 73--80, ACM Press.
+
+\bibitem{mei_videoreach:_2007}
+Tao Mei, Bo~Yang, Xian-Sheng Hua, Linjun Yang, Shi-Qiang Yang, and Shipeng Li,
+\newblock ``{VideoReach}: an online video recommendation system,''
+\newblock in {\em Proceedings of the 30th annual international {ACM} {SIGIR}
+  conference on {Research} and development in information retrieval - {SIGIR}
+  '07}, Amsterdam, The Netherlands, 2007, p. 767, ACM Press.
+
+\bibitem{deldjoo_toward_2015}
+Yashar Deldjoo, Mehdi Elahi, Massimo Quadrana, and Paolo Cremonesi,
+\newblock ``Toward {Building} a {Content}-{Based} {Video} {Recommendation}
+  {System} {Based} on {Low}-{Level} {Features},''
+\newblock in {\em E-{Commerce} and {Web} {Technologies}}, vol. 239, pp. 45--56.
+  Springer International Publishing, Cham, 2015.
+
+\bibitem{covington_deep_2016}
+Paul Covington, Jay Adams, and Emre Sargin,
+\newblock ``Deep {Neural} {Networks} for {YouTube} {Recommendations},''
+\newblock in {\em Proceedings of the 10th {ACM} {Conference} on {Recommender}
+  {Systems} - {RecSys} '16}, Boston, Massachusetts, USA, 2016, pp. 191--198,
+  ACM Press.
+
+\bibitem{dietterich_ensemble_2000}
+Thomas~G. Dietterich,
+\newblock ``Ensemble {Methods} in {Machine} {Learning},''
+\newblock in {\em Multiple {Classifier} {Systems}}, vol. 1857, pp. 1--15.
+  Springer Berlin Heidelberg, Berlin, Heidelberg, 2000.
+
+\bibitem{breiman_bagging_1996}
+Leo Breiman,
+\newblock ``Bagging predictors,''
+\newblock {\em Machine Learning}, vol. 24, no. 2, pp. 123--140, 1996.
+
+\bibitem{drucker_improving_1997}
+Harris Drucker,
+\newblock ``Improving {Regressors} using {Boosting} {Techniques},''
+\newblock in {\em Proceedings of the {Fourteenth} {International} {Conference}
+  on {Machine} {Learning}}, Nashville, Tennessee, USA, 1997, pp. 107--115,
+  Morgan Kaufmann Publishers Inc.
+
+\bibitem{wolpert_stacked_1992}
+David~H Wolpert,
+\newblock ``Stacked generalization,''
+\newblock {\em Neural networks}, vol. 5, no. 2, pp. 241--259, 1992.
+
+\bibitem{manning_matrix_2008}
+Christopher~D. Manning, Prabhakar Raghavan, and Hinrich Schütze,
+\newblock ``Matrix decompositions \& latent semantic indexing,''
+\newblock in {\em Introduction to information retrieval}, pp. 403--419.
+  Cambridge University Press, New York, 2008,
+\newblock OCLC: ocn190786122.
+
+\bibitem{dasgupta_experiments_2000}
+Sanjoy Dasgupta,
+\newblock ``Experiments with {Random} {Projection},''
+\newblock in {\em Proceedings of the {Sixteenth} conference on {Uncertainty} in
+  artificial intelligence - {UAI} '00}, San Francisco, CA, USA, 2000, pp.
+  143--151, Morgan Kaufmann Publishers Inc.
+
+\bibitem{ke_lightgbm:_2017}
+Guolin Ke, Qi~Meng, Thomas Finley, Taifeng Wang, Wei Chen, Weidong Ma, Qiwei
+  Ye, and Tie-Yan Liu,
+\newblock ``{LightGBM}: {A} {Highly} {Efficient} {Gradient} {Boosting}
+  {Decision} {Tree},''
+\newblock in {\em Advances in {Neural} {Information} {Processing} {Systems}
+  30}, Long Beach, California, 2017, pp. 3146--3154, Curran Associates, Inc.
+
+\bibitem{guo_deepfm:_2017}
+Huifeng Guo, Ruiming Tang, Yunming Ye, Zhenguo Li, and Xiuqiang He,
+\newblock ``{DeepFM}: {A} {Factorization}-{Machine} based {Neural} {Network}
+  for {CTR} {Prediction},''
+\newblock {\em arXiv:1703.04247 [cs]}, 2017,
+\newblock arXiv: 1703.04247.
+
+\end{thebibliography}
