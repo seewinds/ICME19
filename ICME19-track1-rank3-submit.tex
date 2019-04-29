@@ -36,22 +36,13 @@ $^1$\{seu\_yangliu, cheng.lyu, zhiyuanl\}@seu.edu.cn,  $^2$dacheng.tao@sydney.ed
 
 %
 \begin{abstract}
-  How to build an effective personalized recommendation system is a
-  challenging but highly valuable problem in social media services. This
-  paper focuses on constructing a universal framework for short video
-  recommendation by predicting the probability of finishing watching the
-  entire video and pressing the `like' button. Four novel techniques are
-  proposed to improve the prediction accuracy. Firstly, we present an
-  Incremental Multi-Window Scanning approach to extract the features
-  pertaining to the users' behaviors. Also, a User Interaction Behavior
-  Hierarchy is designed to capture a larger quantity of information and
-  reduce the computing time. Additionally, the model transfer is capable
-  of transferring the knowledge learned by the model on other datasets to
-  the final model. Lastly, a rank-based ensemble approach which is
-  suitable for tasks based on the evaluation metric of AUC is proposed.
-  Our method long ranked first in the final stage of ICME Short Video
-  Understanding Challenge (Track1) before the revision of competition
-  rule.
+  How to build an effective personalized recommendation system is a challenging but highly valuable problem in social media services.
+  This paper focuses on constructing a universal framework for short video recommendation by predicting the probability of finishing watching the entire video and pressing the `like' button. Four novel techniques are proposed to improve the prediction accuracy.
+  Firstly, we present an Incremental Multi-Window Scanning approach to extract the features pertaining to the users' behaviors.
+  Also, a User Interaction Behavior Hierarchy is designed to capture a larger quantity of information and reduce the computing time.
+  Additionally, the model transfer is capable of transferring the knowledge learned by the model on other datasets to the final model.
+  Lastly, a rank-based ensemble approach which is suitable for tasks based on the evaluation metric of AUC is proposed.
+  Our method long ranked first in the final stage of ICME Short Video Understanding Challenge (Track1) before the revision of competition rule.
 \end{abstract}
 %
 \begin{keywords}
@@ -66,7 +57,8 @@ Short video recommendation, model transfer, ensemble approach.
 \section{Introduction}
 \label{sec:intro}
 
-With the increasing popularity of short-video-based social media platforms, personalized recommendation for videos have become an urgent yet challenging need. Instead of manually searching for the contents, it allows users to receive direct pushes of videos relating to their preferences. This is helpful in increasing user loyalty and facilitate the distribution of newly uploaded contents on the platform. However, as summarized in \cite{sarwar_item-based_2001}, the two main obstacles in developing a recommendation algorithm are the scalability and quality. First, many traditional recommendation algorithms like k-nearest neighbors cannot handle large-scale dataset which is prevalent in the application scenarios nowadays. Second, a recommendation system with low recommending accuracy will reduce the users' satisfaction to the application.
+With the increasing popularity of short-video-based social media platforms, personalized recommendation for videos have become an urgent yet challenging need. Instead of manually searching for the contents, it allows users to receive direct pushes of videos relating to their preferences. This is helpful in increasing user loyalty and facilitate the distribution of newly uploaded contents on the platform.
+However, as summarized in \cite{sarwar_item-based_2001}, the two main obstacles in developing a recommendation algorithm are the scalability and quality. First, many traditional recommendation algorithms like k-nearest neighbors cannot handle large-scale dataset which is prevalent in the application scenarios nowadays. Second, a recommendation system with low recommending accuracy will reduce the users' satisfaction to the application.
 
 \begin{figure}[h]
   \centering
