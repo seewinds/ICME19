@@ -29,7 +29,7 @@ $^2$UBTECH Sydney Artificial Intelligence Centre and the School of
 Information Technologies,\\the Faculty of Engineering and Information
 Technologies, the University of Sydney\\
 $^1$\{seu\_yangliu, cheng.lyu, zhiyuanl\}@seu.edu.cn,  $^2$dacheng.tao@sydney.edu.au\\
-$^*$Corresponding author
+\thanks{$^*$Corresponding author.}
 }
 
 
@@ -62,9 +62,9 @@ Short video recommendation, model transfer, ensemble approach.
 With the increasing popularity of short-video-based social media platforms, personalized recommendation for videos have become an urgent yet challenging need. Instead of manually searching for the contents, it allows users to receive direct pushes of videos relating to their preferences. This is helpful in increasing user loyalty and facilitate the distribution of newly uploaded contents on the platform.
 However, as summarized in \cite{sarwar_item-based_2001}, the two main obstacles in developing a recommendation algorithm are the scalability and quality. First, many traditional recommendation algorithms like k-nearest neighbors cannot handle large-scale dataset which is prevalent in the application scenarios nowadays. Second, a recommendation system with low recommending accuracy will reduce the users' satisfaction to the application.
 
-\begin{figure}[h]
+\begin{figure}[]
   \centering
-  \includegraphics[width=4.2cm]{media/tiktok}
+  \includegraphics[width=4cm]{media/tiktok}
   \caption{A screenshot of the recommendation page on TikTok.}
   \label{fig:tiktok}
 \end{figure}
@@ -275,7 +275,7 @@ We evaluated our proposed method on the data of ICME Short Video Understanding C
 
 It should be pointed out that, with only four days to go, the competition organizers made a significant revision to the competition rule, that is, from one submission per team per day to 10 submissions per team member per day. Moreover, the deadlines for the competition and team merge were both postponed. In other words, a team of five members can submit up to 50 submissions in a day. Before the revision of the rule, we ranked first with a large advantage over other teams, and our total submission number was 19 in one month, which was far less than others.
 
-\begin{table}[h!]
+\begin{table}[]
   \small
   \caption{Performance comparison for different models.}
   \label{table:perform-comparison}
@@ -318,7 +318,9 @@ It should be pointed out that, with only four days to go, the competition organi
 \section{Conclusion}
 \label{conclusion}
 
-This paper investigated the short video recommendation problem in social media services. The main contributions of this research are the four techniques described in Section 3. The Incremental Multi-Window Scanning method enables us to extract user behavior features from different granularities and made our baseline method reach the top three in the leaderboard. However, the large time window during feature extraction may lead to substantial consumption of computing resources. Referring the memory hierarchy in computer architecture, the proposed User Interaction Behavior Hierarchy makes it possible to extract user behavior features with a larger time window based on core user interaction behavior. According to experimental results, not only is this method more than 50 times faster, but it significantly improves the prediction accuracy. Through Model Transfer, multiple base models can be combined to generate a better result. Our Rank-based Ensemble Method is significantly superior to the traditional simple averaging ensemble method in the task with the evaluation metric of AUC.
+This paper investigated the short video recommendation problem in social media services. The main contributions of this research are the four techniques described in Section 3. The Incremental Multi-Window Scanning method enables us to extract user behavior features from different granularities and made our baseline method reach the top three in the leaderboard. However, the large time window during feature extraction may lead to substantial consumption of computing resources.
+Referring the memory hierarchy in computer architecture, the proposed User Interaction Behavior Hierarchy makes it possible to extract user behavior features with a larger time window based on core user interaction behavior. According to experimental results, not only is this method more than 50 times faster, but it significantly improves the prediction accuracy. Through Model Transfer, multiple base models can be combined to generate a better result.
+Our Rank-based Ensemble Method is significantly superior to the traditional simple averaging ensemble method in the task with the evaluation metric of AUC, and is applicable to other problems, such as geographical location recommendation \cite{liu_two-stage_2019}.
 
 % References should be produced using the bibtex program from suitable
 % BiBTeX files (here: strings, refs, manuals). The IEEEbib.bst bibliography
