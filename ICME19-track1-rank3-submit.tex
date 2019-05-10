@@ -318,9 +318,12 @@ It should be pointed out that, with only four days to go, the competition organi
 \section{Conclusion}
 \label{conclusion}
 
-This paper investigated the short video recommendation problem in social media services. The main contributions of this research are the four techniques described in Section 3. The Incremental Multi-Window Scanning method enables us to extract user behavior features from different granularities and made our baseline method reach the top three in the leaderboard. However, the large time window during feature extraction may lead to substantial consumption of computing resources.
-Referring the memory hierarchy in computer architecture, the proposed User Interaction Behavior Hierarchy makes it possible to extract user behavior features with a larger time window based on core user interaction behavior. According to experimental results, not only is this method more than 50 times faster, but it significantly improves the prediction accuracy. Through Model Transfer, multiple base models can be combined to generate a better result.
-Our Rank-based Ensemble Method is significantly superior to the traditional simple averaging ensemble method in the task with the evaluation metric of AUC, and is applicable to other problems, such as geographical location recommendation \cite{liu_two-stage_2019}.
+This paper investigated the short video recommendation problem in social media services. The main contributions of this research are the four techniques described in Section 3.
+The Incremental Multi-Window Scanning method enables us to extract user behavior features from different granularities and made our baseline method reach the top three in the leaderboard.
+However, the large time window during feature extraction may lead to substantial consumption of computing resources. Referring the memory hierarchy in computer architecture, the proposed User Interaction Behavior Hierarchy makes it possible to extract user behavior features with a larger time window based on core user interaction behavior. According to experimental results, not only is this method more than 50 times faster, but it significantly improves the prediction accuracy.
+Through Model Transfer, multiple base models can be combined to generate a better result.
+Our Rank-based Ensemble Method is significantly superior to the traditional simple averaging ensemble method in the task with the evaluation metric of AUC.
+The proposed recommendation framework is versatile not only for the short-video recommendation problem addressed in this paper, but also for many other problems, such as geographical location recommendation \cite{liu_two-stage_2019}.
 
 % References should be produced using the bibtex program from suitable
 % BiBTeX files (here: strings, refs, manuals). The IEEEbib.bst bibliography
